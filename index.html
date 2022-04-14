@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <!-- Heading -->
+    <div class="header">
+      <h1>My Blogs</h1>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="icofont-navigation-menu"></i></a>
+    </div>
+    <!-- Heading -->
+
+    <!-- NavBar -->
+    <div class="nav-wrapper" id="topNav">
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="lifestyle.html">Lifestyle</a></li>
+          <li><a href="festival.html">Festival</a></li>
+          <li><a href="travel.html">Travel</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- NavBar -->
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+      <div class="section">
+        <div class="blog-item">
+          <div class="blog-image gufa">
+          </div>
+          <a class="blog-summary" href="lifestyle.html">
+            <h2>Newari Gufa: The Sun Marriage</h2>
+            <p>The Newari people are famous for their year-round festivities that take place on various occasions
+              worshipping the
+              numerous deities and depicting historical events. They have beautifully preserved their unique culture and
+              tradition
+              throughout the centuries of the establishment of their community by recreating and repeating these rituals
+              year after
+              year.</p>
+          </a>
+        </div>
+        <div class="blog-item">
+          <div class="blog-image travel">
+          </div>
+          <a class="blog-summary" href="travel.html">
+            <h2>Reasons to add Pikey Peak Trekking trail to your list</h2>
+            <p>Nepal, the land of Himalayas, has got a lot to offer you from the warm hospitality of people to the
+              charming natural
+              beauty that it holds. </p>
+          </a>
+        </div>
+        <div class="blog-item">
+          <div class="blog-image food">
+          </div>
+          <a href="food.html" class="blog-summary">
+            <h2>Nepali Dishes You Need to Try at Least Once</h2>
+            <p>In Nepal, a wide range of cuisines are mainly based on ethnicity or based on region. However, every local
+              dish
+              represents ample room for cultural and geographic diversity. There are many dishes and traditional cuisine
+              which someone
+              must try if they are visiting Nepal for the first time.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="aside">
+        <div class="item">
+          <!-- <div class="blog-summary"> -->
+          <h2>Recent Posts</h2>
+          <ol class="recent-post">
+            <li><a href="lifestyle.html">Newari Gufa: The Sun Marriage</a></li>
+            <li><a href="travel.html">Reasons to add Pikey Peak Trekking trail to your list</a></li>
+            <li><a href="food.html">Nepali Dishes You Need to Try at Least Once</a></li>
+            <li><a href="festival.html">Mha Puja – A ritual to empower and cleanse one’s soul</a></li>
+          </ol>
+          <!-- </div> -->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Main Content -->
+
+    <footer>
+      <p>Copyright © 2022 Roch Bajracharya</p>
+    </footer>
+
+  </div>
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("topNav");
+      if (x.className === "nav-wrapper") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-wrapper";
+      }
+    }
+  </script>
+</body>
+
+</html>

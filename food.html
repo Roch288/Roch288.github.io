@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="../css/content.css">
+  <link rel="stylesheet" href="icofont/icofont.min.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <!-- Heading -->
+    <div class="header">
+      <h1>My Blogs</h1>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="icofont-navigation-menu"></i></a>
+    </div>
+    <!-- Heading -->
+
+    <!-- NavBar -->
+    <div class="nav-wrapper" id="topNav">
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="lifestyle.html">Lifestyle</a></li>
+          <li><a href="festival.html">Festival</a></li>
+          <li><a href="travel.html">Travel</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- NavBar -->
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+      <div class="aside">
+        <div class="item">
+          <!-- <div class="blog-summary"> -->
+          <h2>Recent Posts</h2>
+          <ol class="recent-post">
+            <li><a href="lifestyle.html">Newari Gufa: The Sun Marriage</a></li>
+            <li><a href="travel.html">Reasons to add Pikey Peak Trekking trail to your list</a></li>
+            <li><a href="food.html">Nepali Dishes You Need to Try at Least Once</a></li>
+            <li><a href="festival.html">Mha Puja – A ritual to empower and cleanse one’s soul</a></li>
+          </ol>
+          <!-- </div> -->
+        </div>
+
+      </div>
+
+      <div class="section">
+        <div class="blog-content">
+          <h1>Nepali Dishes You Need to Try at Least Once</h1>
+          <img src="images/food/samay-baji.jpg" />
+
+          <section>
+            <p>In Nepal, a wide range of cuisines are mainly based on ethnicity or based on region. However, every local
+              dish
+              represents ample room for cultural and geographic diversity. There are many dishes and traditional cuisine
+              which someone
+              must try if they are visiting Nepal for the first time.</p>
+
+            <h2>Dal Bhat Tarkari</h2>
+
+            <p>Dhindo is the food that can only be found in Nepal. It is prepared by gradually adding flour to boiling
+              water while
+              stirring. It is a staple meal in various parts of Nepal. The vessel of choice for making dhindo is
+              phalame
+              taphke (iron
+              pan). A narrow iron spatula called a dabilo is used to stir the dhindo as it thickens.</p>
+
+            <img src="images/food/dal-bhat.jpg" alt="Dal Bhat">
+
+            <h2>Dhindo</h2>
+            <p>Dhindo is the food that can only be found in Nepal. It is prepared by gradually adding flour to boiling
+              water while
+              stirring. It is a staple meal in various parts of Nepal. The vessel of choice for making dhindo is
+              phalame
+              taphke (iron
+              pan). A narrow iron spatula called a dabilo is used to stir the dhindo as it thickens.</p>
+            <img src="images/food/Dhido.jpg" alt="Dhido" />
+
+            <h2>Gundruk</h2>
+            <p>Gundruk is a leafy green vegetable that is fermented and popular in Nepal. Perhaps it is believed to be
+              a
+              national dish.
+              Gundruk is a multi-legged plant of Rayo sag, mustard leaves, radish, etc. Dundruk is produce as a dry
+              plant with dark
+              brown characteristics. It’s a food that can either be served as a meal or as a lateral dish or as a
+              soup.
+            </p>
+            <img src="images/food/gundruk.jpg" alt="Gundruk" />
+
+            <h2>Sel roti</h2>
+            <p>Sel roti is kind of Nepal ‘s substitute to donut. Sel roti is also traditional food that has much less
+              sweet compare to
+              the donuts. Generally, it is deep-fried and round. They are usually considered as snacks, and it is
+              found
+              in the food
+              streets of Nepal. However, it is generally made in Nepali homes, and it is prepared during celebrations
+              and festivals,
+              particularly in Maghe Sankranti and Tihar.
+            </p>
+            <img src="images/food/sel-roti.png" alt="Sel Rotis" />
+
+            <h2>Yomari</h2>
+            <p>Yomari is so unique that it has a festival called Yomari Pooja that is usually celebrated in December.
+              This is the
+              Newari festivals that mark the conclusion of the rice harvest, and on that day they eat sweet yomari.
+              Yomari is like
+              pointed fish dumplings in shape and looks, which are actually made of rice meal and either filled with a
+              mixture of
+              sweet ingredients.
+            </p>
+            <img src="images/food/yomari.jpeg" alt="Sel Rotis" />
+
+          </section>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Main Content -->
+
+    <footer>
+      <p>Copyright © 2022 Roch Bajracharya</p>
+    </footer>
+
+  </div>
+
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("topNav");
+      if (x.className === "nav-wrapper") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-wrapper";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
